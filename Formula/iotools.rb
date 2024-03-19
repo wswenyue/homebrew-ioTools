@@ -4,9 +4,9 @@
 class Iotools < Formula
   desc "ioTools using rust build."
   homepage "https://github.com/wswenyue/ioTools"
-  url "https://github.com/wswenyue/ioTools/releases/download/v0.1.0.11/io_tools-0.1.0-x86_64-apple-darwin.tar.gz"
-  sha256 "1f1572be021e018b9c0f9b31d4d52262b89aea3e766b4b81a822fe9b219e05e5"
-  version '0.1.0.11'
+  url "https://github.com/wswenyue/ioTools/releases/download/v0.1.0.12/io_tools-0.1.0-x86_64-apple-darwin.tar.gz"
+  sha256 "703187a7b135010946d1be8ad4907314181df15c9f030177c58937afb3764098"
+  version '0.1.0.12'
 
   def install
     bin.install "io_tools" => "iotools"
